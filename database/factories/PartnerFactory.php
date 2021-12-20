@@ -1,0 +1,27 @@
+<?php
+
+namespace Database\Factories;
+
+use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Str;
+
+class PartnerFactory extends Factory
+{
+    /**
+     * Define the model's default state.
+     *
+     * @return array
+     */
+    public function definition()
+    {
+        return [
+            'img' => $this->faker->image('public/images', 80, 60, null, false),
+        ];
+    }
+
+    /**
+     * Indicate that the model's email address should be unverified.
+     *
+     * @return \Illuminate\Database\Eloquent\Factories\Factory
+     */
+}

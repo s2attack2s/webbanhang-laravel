@@ -1,0 +1,122 @@
+/* You can remove these code below*/
+:root {
+    --primary: #08aeea;
+    --secondary: #13d2b8;
+    --purple: #bd93f9;
+    --pink: #ff6bcb;
+    --blue: #8be9fd;
+    --gray: #333;
+    --font: "Poppins", sans-serif;
+    --gradient: linear-gradient(40deg, #ff6ec4, #7873f5);
+    --shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
+}
+* {
+    box-sizing: border-box;
+}
+input,
+button,
+textarea {
+    border: 0;
+    outline: none;
+}
+/* Main code */
+
+.text-field {
+    position: relative;
+    margin: 15px 0;
+}
+.text-field label {
+    display: inline-block;
+    color: #333;
+    font-weight: 600;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    background-color: white;
+    padding: 1px 5px;
+    font-size: 12px;
+    transform: translateY(-50%);
+    color: #6a5af9;
+}
+.text-field input {
+    padding: 15px;
+    display: block;
+    width: 100%;
+    color: #999;
+    font-size: 14px;
+    border: 1px solid #6a5af9;
+    border-radius: 4px;
+}
+/* You can remove these code below*/
+:root {
+    --primary: #08aeea;
+    --secondary: #13d2b8;
+    --purple: #bd93f9;
+    --pink: #ff6bcb;
+    --blue: #8be9fd;
+    --gray: #333;
+    --font: "Poppins", sans-serif;
+    --gradient: linear-gradient(40deg, #ff6ec4, #7873f5);
+    --shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
+}
+* {
+    box-sizing: border-box;
+}
+input,
+button,
+textarea {
+    border: 0;
+    outline: none;
+}
+/* Main code */
+
+.password-input {
+    border-radius: 8px;
+    border: 1px solid #a7a8b0;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    color: #a7a8b0;
+    margin: 15px 0;
+}
+.password-input input {
+    padding: 0 0px;
+    outline: none;
+    border: none;
+    line-height: normal;
+    width: 100%;
+}
+.password-input .icon-eye {
+    cursor: pointer;
+}
+.Login,.Register{
+    max-width: 800px;
+    margin: auto;
+    padding: 10%;
+}
+.submit-login {
+    transform: translate(-50%);
+    left: 50%;
+    position: relative;
+    display: block;
+}
+.form-group a{
+    text-decoration: none;
+    color: black;
+}
+.form-group a:hover{
+    color: red;
+}
+.form-group .a_div{
+    margin-top: 15px;
+}
+.login_signup{
+    float: right;
+}
+.error{
+    color: red !important;
+}
+input.error{
+    border-color: red !important;
+}

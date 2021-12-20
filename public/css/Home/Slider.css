@@ -1,0 +1,21 @@
+.slider-section{
+    margin-bottom: 10px;
+}
+.slider img {
+    width: 100%;
+    max-height: 650px;
+}
+.slider-i {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.slider-i-left {
+    left: 25px;
+}
+.slider-i-right {
+    right: 25px;
+}

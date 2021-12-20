@@ -1,0 +1,62 @@
+.category{
+    padding: 20px;
+}
+  /* The Table Attributes */
+  table {
+    text-align: center;
+    width: 100%;
+    margin: 20px auto;
+    font-family: sans-serif;
+    border-bottom: 5px solid #009688;
+  }
+  /* The Attributes that the Head and the Body of the Table Share */
+  th,
+  td {
+    padding: 10px;
+  }
+  /* Attributes of the Head of the Body */
+  th {
+    background-color: #404040;
+    color: white;
+  }
+  /* Attributes of Each Cell */
+  td {
+    background-color: #eee;
+  }
+  /*Attributes of Span*/
+  span {
+    padding: 5px 10px;
+    margin: 3px;
+    color: white;
+  }
+  /*Attributes */
+  .blue {
+    background-color: #03a9f4;
+  }
+  .pink {
+    background-color: #e91e63;
+  }
+  .button-cate{
+    margin-top: 10px;
+  }
+  .display-item{
+    display: none;
+  }
+  .show-item{
+    display: block;
+    position: fixed;
+    z-index: 999;
+    height: 100vh;
+    padding: 26px;
+    width: calc(100% - 17.625rem);
+    top: 0;
+    background-color: #fff;
+  }
+  #show-item .close{
+    z-index: 9999999999;
+    float: right;
+    font-size: 30px;
+  }
+  .table-search img{
+    width: 100px;
+  }
